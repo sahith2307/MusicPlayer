@@ -22,6 +22,7 @@ const DetailsPage = (props) => {
         <img className="song-cover" src={cover} alt={name} />
         <div className="description-cont">
           <h1 className="head-cont">{name}</h1>
+          <p className="para-cont">{artist}</p>
           <p className="para-cont">{description}</p>
         </div>
       </div>
